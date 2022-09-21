@@ -1,10 +1,10 @@
-# Make It Real - 404 Not Found Page
+# Make It Real - My Team Page
 
 <img src="./design/desktop-preview.jpg" width="700">
 
 ## Reto
 
-Su desafío es construir una pagina 404 responsive y lograr que se parezca lo más posible al diseño.
+Su desafío es construir una pagina responsive para mostrar a tu team y lograr que se parezca lo más posible al diseño.
 
 Puedes usar cualquier herramienta que te guste para ayudarte a completar el desafío. Entonces, si tienes algo que te gustaría practicar, no dudes en intentarlo.
 
@@ -27,18 +27,17 @@ Los diseños se crearon con los siguientes anchos:
 
 ### Primary
 
-- Black: #333333
-- Gray2: #4F4F4F
+- Black: #000000
 
 ## Typography
 
 ### Body Copy
 
-- Font size: 24px/18px
+- Font size: 18px/14px
 
 ### Font
 
-- Family: [Space Mono](https://fonts.google.com/specimen/Space+Mono)
+- Family: [Poppins](https://fonts.google.com/specimen/Poppins)
 - Weights: 500
 
 ## Construyendo tu proyecto
