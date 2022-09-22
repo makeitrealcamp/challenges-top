@@ -23,7 +23,7 @@ Los diseños se crearon con los siguientes anchos:
 - Mobile: 375px
 - Desktop: 1440px
 
-## Colors
+## Colores
 
 ### Primary
 

@@ -1,3 +1,16 @@
+# HTML Challenges
+
+Este repositorio contiene todo el código de inicio para los desafíos de HTML. Hay una carpeta separada para cada desafío. El archivo `README.md` en cada carpeta contiene las instrucciones del desafío.
+
+## Desafíos
+
+- [404 Not Found Page](./404-not-found-page/)
+- [Credit Card Form](./card-details-form/)
+- [My Team Page](./my-team-page/)
+- [Profile Card Component](./profile-card-component/)
+- [Single Price Grid Component](./single-price-grid/)
+
+
 ## Construyendo tu proyecto
 
 Siéntase libre de usar cualquier flujo de trabajo con el que se sienta cómodo. A continuación se sugiere un proceso, pero no sienta que necesita seguir estos pasos:

@@ -1,16 +1,16 @@
-# Make It Real - My Team Page
+# Make It Real - Single price grid component
 
 <img src="./design/desktop-preview.jpg" width="700">
 
 ## Reto
 
-Su desafío es construir una pagina responsive para mostrar a tu team y lograr que se parezca lo más posible al diseño.
+Su desafío es construir este componente de tarjeta de perfil y lograr que se parezca lo más posible al diseño.
 
 Puedes usar cualquier herramienta que te guste para ayudarte a completar el desafío. Entonces, si tienes algo que te gustaría practicar, no dudes en intentarlo.
 
-Sus usuarios deberían poder:
+Tus usuarios deberían poder:
 
-- Ver el diseño óptimo según el tamaño de pantalla de su dispositivo
+- Ver el diseño óptimo para el componente según el tamaño de pantalla de su dispositivo
 
 ## Diseño
 
@@ -27,18 +27,24 @@ Los diseños se crearon con los siguientes anchos:
 
 ### Primary
 
-- Black: #000000
+- Cyan: hsl(179, 62%, 43%)
+- Bright Yellow: hsl(71, 73%, 54%)
+
+### Neutral
+
+- Light Gray: hsl(204, 43%, 93%)
+- Grayish Blue: hsl(218, 22%, 67%)
 
 ## Typography
 
 ### Body Copy
 
-- Font size: 18px/14px
+- Font size: 16px
 
 ### Font
 
-- Family: [Poppins](https://fonts.google.com/specimen/Poppins)
-- Weights: 500
+- Family: [Karla](https://fonts.google.com/specimen/Karla)
+- Weights: 400, 700
 
 ## Construyendo tu proyecto
 
