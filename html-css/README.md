@@ -8,6 +8,7 @@ Este repositorio contiene todo el código de inicio para los desafíos de HTML. 
 - [404 Not Found Page](./404-not-found-page/)
 - [My Team Page](./my-team-page/)
 - [NFT Preview Card](./nft-preview-card/)
+- [Order Summary](./order-summary/)
 - [Product Preview Card](./product-preview-card/)
 - [Profile Card Component](./profile-card-component/)
 - [QR Code](./qr-code-component/)
