@@ -9,6 +9,7 @@ Este repositorio contiene todo el código de inicio para los desafíos de HTML. 
 - [My Team Page](./my-team-page/)
 - [Product Preview Card](./product-preview-card/)
 - [Profile Card Component](./profile-card-component/)
+- [QR Code](./qr-code-component/)
 - [Single Price Grid Component](./single-price-grid/)
 
 ## Junior
