@@ -4,7 +4,7 @@
 
 ## Reto
 
-Su desafío es construir este componente de tarjeta de perfil y lograr que se parezca lo más posible al diseño.
+Su desafío es construir este componente de código QR y lograr que se parezca lo más posible al diseño.
 
 Puedes usar cualquier herramienta que te guste para ayudarte a completar el desafío. Entonces, si tienes algo que te gustaría practicar, no dudes en intentarlo.
 

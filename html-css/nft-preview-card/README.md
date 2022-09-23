@@ -1,26 +1,21 @@
-# Make It Real - eCommerce component.
+# Make It Real - NFT preview card component
 
-<img src="./design/desktop-preview.png" width="700">
+<img src="./design/desktop-preview.jpg" width="700">
 
 ## Reto
 
-Su desafío es construir este componente de comercio electrónico y lograr que se parezca lo más posible al diseño.
+Su desafío es construir este componente de tarjeta de vista previa y lograr que se parezca lo más posible al diseño.
 
 Puedes usar cualquier herramienta que te guste para ayudarte a completar el desafío. Entonces, si tienes algo que te gustaría practicar, no dudes en intentarlo.
 
-Los usuarios deben ser capaces de:
+Tus usuarios deberían poder:
 
-- Vea los platos en el lado izquierdo de la pantalla y agréguelos a su carrito en el lado derecho.
-- Cuando no haya platos en su carrito, debería ver un mensaje que dice: "Su carrito está vacío".
-- Cuando se agrega un plato a su carrito, el subtotal y los totales se actualizarán automáticamente.
-- Cuando los productos están en su carrito, debería poder aumentar y disminuir la cantidad.
-  - Un usuario no debería poder marcar la cantidad como un número negativo.
-  - Si la cantidad baja a 0, el usuario tendrá la opción de eliminar o eliminar el producto de su carrito por completo.
-- El impuesto se basa en el impuesto sobre las ventas del estado de Tennessee: 0,0975
+- Ver el diseño óptimo según el tamaño de pantalla de su dispositivo
+- Ver hover y focus para elementos interactivos
 
 ## Diseño
 
-Los diseños están en formato JPG estático. El uso de archivos PNG significará que deberá usar su mejor criterio para estilos como "tamaño de fuente", "padding" y "margen".
+Los diseños están en formato JPG estático. El uso de archivos JPG significará que deberá usar su mejor criterio para estilos como "tamaño de fuente", "padding" y "margen".
 
 ### Style Guide
 
@@ -33,23 +28,26 @@ Los diseños se crearon con los siguientes anchos:
 
 ### Primary
 
-- background color: #EFF0F6
-- border color: #d7d6fc
-- primary purple: #6B00F5
-- Pattens Blue: #e1f0fe
-- Ghost White: #f7f7ff
-- White Ice: #defef0
+- Soft blue: hsl(215, 51%, 70%)
+- Cyan: hsl(178, 100%, 50%)
+
+### Neutral
+
+- Very dark blue (main BG): hsl(217, 54%, 11%)
+- Very dark blue (card BG): hsl(216, 50%, 16%)
+- Very dark blue (line): hsl(215, 32%, 27%)
+- White: hsl(0, 0%, 100%)
 
 ## Tipografía
 
 ### Body Copy
 
-- Font size: 16px
+- Font size (paragraph): 18px
 
 ### Font
 
-- Family: [Poppins](https://fonts.google.com/specimen/Poppins)
-- Weights: 400, 700
+- Family: [Outfit](https://fonts.google.com/specimen/Outfit)
+- Weights: 300, 400, 600
 
 ## Construyendo tu proyecto
 
@@ -68,3 +66,4 @@ Recomendamos encarecidamente sobrescribir este `README.md` con uno personalizado
 La plantilla proporciona una guía sobre qué agregar. Un `README` personalizado lo ayudará a explicar su proyecto y reflexionar sobre sus aprendizajes. Por favor, siéntete libre de editar nuestra plantilla tanto como quieras.
 
 **¡Diviértete construyendo!** 🚀
+
