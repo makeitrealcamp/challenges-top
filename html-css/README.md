@@ -16,6 +16,9 @@ Este repositorio contiene todo el código de inicio para los desafíos de HTML. 
 - [Interactive rating](./interactive-rating/)
 - [Notifications Page](./notifications-page/)
 
+## Intermediate
+- [Ecommerce Component](./ecommerce-component/)
+
 
 ## Construyendo tu proyecto
 
