@@ -29,7 +29,7 @@ Los diseños se crearon con los siguientes anchos:
 
 - Black: #000000
 
-## Typography
+## Tipografía
 
 ### Body Copy
 

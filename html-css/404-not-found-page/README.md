@@ -30,7 +30,7 @@ Los diseños se crearon con los siguientes anchos:
 - Black: #333333
 - Gray2: #4F4F4F
 
-## Typography
+## Tipografía
 
 ### Body Copy
 

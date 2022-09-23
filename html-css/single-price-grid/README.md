@@ -35,7 +35,7 @@ Los diseños se crearon con los siguientes anchos:
 - Light Gray: hsl(204, 43%, 93%)
 - Grayish Blue: hsl(218, 22%, 67%)
 
-## Typography
+## Tipografía
 
 ### Body Copy
 

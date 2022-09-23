@@ -1,21 +1,17 @@
-# Make It Real - Credit Card Form
+# Make It Real - Product preview card component
 
 <img src="./design/desktop-preview.jpg" width="700">
 
 ## Reto
 
-Su desafío es construir este formulario interactivo de detalles de la tarjeta y lograr que se parezca lo más posible al diseño.
+Su desafío es construir este componente de tarjeta de perfil y lograr que se parezca lo más posible al diseño.
 
 Puedes usar cualquier herramienta que te guste para ayudarte a completar el desafío. Entonces, si tienes algo que te gustaría practicar, no dudes en intentarlo.
 
 Sus usuarios deberían poder:
 
-- Complete el formulario
-- Recibir mensajes de error cuando se envía el formulario si:
-   - Cualquier campo de entrada está vacío
-   - El número de tarjeta, la fecha de caducidad o los campos CVC tienen un formato incorrecto
 - Ver el diseño óptimo según el tamaño de pantalla de su dispositivo
-- Vea los estados de desplazamiento, activo y de enfoque para elementos interactivos en la página
+- Ver hover y focus para elementos interactivos
 
 ## Diseño
 
@@ -32,26 +28,29 @@ Los diseños se crearon con los siguientes anchos:
 
 ### Primary
 
-- Linear gradient (active input border): hsl(249, 99%, 64%) to hsl(278, 94%, 30%)
-- Red (input errors): hsl(0, 100%, 66%)
+- Dark cyan: hsl(158, 36%, 37%)
+- Cream: hsl(30, 38%, 92%)
 
 ### Neutral
 
+- Very dark blue: hsl(212, 21%, 14%)
+- Dark grayish blue: hsl(228, 12%, 48%)
 - White: hsl(0, 0%, 100%)
-- Light grayish violet: hsl(270, 3%, 87%)
-- Dark grayish violet: hsl(279, 6%, 55%)
-- Very dark violet: hsl(278, 68%, 11%)
 
 ## Tipografía
 
 ### Body Copy
 
-- Font size: 18px
+- Font size (paragraph): 14px
 
 ### Font
 
-- Family: [Space Grotesk](https://fonts.google.com/specimen/Space+Grotesk)
-- Weights: 500
+- Family: [Montserrat](https://fonts.google.com/specimen/Montserrat)
+- Weights: 500, 700
+
+- Family: [Fraunces](https://fonts.google.com/specimen/Fraunces)
+- Weights: 700
+
 
 ## Construyendo tu proyecto
 

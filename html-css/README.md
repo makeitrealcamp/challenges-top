@@ -7,6 +7,8 @@ Este repositorio contiene todo el código de inicio para los desafíos de HTML. 
 - [404 Not Found Page](./404-not-found-page/)
 - [Credit Card Form](./card-details-form/)
 - [My Team Page](./my-team-page/)
+- [Notifications Page](./notifications-page/)
+- [Product Preview Card](./product-preview-card/)
 - [Profile Card Component](./profile-card-component/)
 - [Single Price Grid Component](./single-price-grid/)
 
