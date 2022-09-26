@@ -1,5 +1,7 @@
 # Javascript Challenges
 
+- [Bug Fixes](./bug-fixes.md)
+
 ## Comprobar si la propiedad existe en el objeto
 Escriba una función que tome un objeto (a) y un string (b) como argumento. Devuelva `true` si el objeto tiene una propiedad con la clave 'b'. Devuelva `false` de lo contrario.
 
@@ -139,3 +141,21 @@ function myFunction(dateX, dateY) {
 | myFunction(new Date('2020/01/01'), new Date('2020/01/02'))  | `false`    |
 | myFunction(new Date(2019, 0, 1), new Date(2019, 1, 1))      | `false`    |
 | myFunction(new Date('2000/01/01'), new Date('2000/01/01'))  | `true`     |
+
+## Votos a favor vs votos en contra
+Escribir una función que tome un objeto como argumento. El objeto contiene dos propiedades, `upvotes` y `downvotes`. Devuelve el número de votos a favor menos el número de votos en contra.
+
+```js
+function getVoteCount(obj) {
+
+  return
+}
+
+```
+
+| Test Case                                  | Expected   |
+|--------------------------------------------|------------|
+| getVoteCount({upvotes:13, downvotes:0})    | 13         |
+| getVoteCount({upvotes:2, downvotes:33})    | -31        |
+| getVoteCount({upvotes:132, downvotes:132}) | 0          |
+
