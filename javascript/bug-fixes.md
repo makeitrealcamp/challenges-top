@@ -98,3 +98,33 @@ function clone(arr) {
 | clone([1, 2, 3])           | `[1, 2, 3, [1, 2, 3]]`                     |
 | clone(["x", "y"])          | `["x", "y", ["x", "y"]]`                   |
 | clone([true, false, true]) | `[true, false, true, [true, false, true]]` |
+
+
+## Fix error: Devolución de precios válidos
+Ha habido un problema de datos maestros que afectó los precios de los productos. Compruebe si cada producto tiene un precio válido (entero o flotante, y mayor o igual a cero). Los productos con un precio de 0 son gratuitos y cuentan como un precio válido.
+
+```js
+function hasValidPrice(product) {
+  return (product && product.price && product.price >= 0)
+}
+```
+
+El valor de retorno debe ser un booleano.
+
+| Test Case                                             | Expected |
+|-------------------------------------------------------|----------|
+| hasValidPrice({ "product": "Milk", price: 1.50 })     | `true`   |
+| hasValidPrice({ "product": "Cheese", price: -1 })     | `false`   |
+| hasValidPrice({ "product": "Eggs", price: 0 })        | `true`   |
+| hasValidPrice({ "product": "Cereals", price: "3.0" }) | `false`   |
+| hasValidPrice()                                       | `false`   |
+
+Ejecute los `test case` primero para ver los resultados antes de realizar cambios y comprenda por qué los huevos devuelven 0 y la harina devuelve `undefined`.
+
+## Hints 🇺🇸🤔
+
+#### ¿Por qué los huevos son 0?
+.denruter si 0 erofereht os ,`ecirp.tcudorp` ta eulav yslaf a si 0 .noitidnoc tsal eht ro noitidnoc yslaf tsal eht fo tluser eht si eulav denruter eht ,&& hguorht snoitidnoc gnigrem nehW (https://www.textreverse.com)
+
+#### ¿Por qué la harina es `undefined`?
+.denruter si denifednu erofereht os ,denifednu si `ecirp.tcudorp` .noitidnoc tsal eht ro noitidnoc yslaf tsal eht fo tluser eht si eulav denruter eht ,&& hguorht snoitidnoc gnigrem nehw ,ereh emaS (https://www.textreverse.com)
