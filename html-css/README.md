@@ -13,6 +13,7 @@ Este repositorio contiene todo el código de inicio para los desafíos de HTML. 
 - [Profile Card Component](./profile-card-component/)
 - [QR Code](./qr-code-component/)
 - [Single Price Grid Component](./single-price-grid/)
+- [Stats Preview Card](./stats-preview-card/)
 
 ## Junior
 - [Credit Card Form](./card-details-form/)
