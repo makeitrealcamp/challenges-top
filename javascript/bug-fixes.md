@@ -128,3 +128,55 @@ Ejecute los `test case` primero para ver los resultados antes de realizar cambio
 
 #### ¿Por qué la harina es `undefined`?
 .denruter si denifednu erofereht os ,denifednu si `ecirp.tcudorp` .noitidnoc tsal eht ro noitidnoc yslaf tsal eht fo tluser eht si eulav denruter eht ,&& hguorht snoitidnoc gnigrem nehw ,ereh emaS (https://www.textreverse.com)
+
+## Fix error: Desmutar un arreglo
+Tu amigo está tratando de escribir una función para lograr las siguientes transformaciones:
+
+```js
+const x = [3, 3, 3, 3, 3, 3, 3]
+
+// Each time x is called, the following results are shown:
+
+change(x, 0)  // [3, 3, 3, 3, 3, 3, 3]
+change(x, 1)  // [3, 2, 2, 2, 2, 2, 3]
+change(x, 2)  // [3, 2, 1, 1, 1, 2, 3]
+change(x, 3)  // [3, 2, 1, 0, 1, 2, 3]
+```
+
+Nota: La **función `change()` no debe mutar el arreglo original**. Después de cada llamada a la función, la x original aún debe ser igual a `[3, 3, 3, 3, 3, 3, 3]`.
+
+Se le ocurre el siguiente código:
+
+```js
+function change(x, times) {
+  for(let i = 0; i < x.length; i++) {
+    let j = 1;
+    while (j <= times) {
+      if (i >= j && i < x.length-j) {
+        x[i]--;
+      }
+      j++;
+    }
+  }
+  return x;
+}
+```
+
+¡Ups! El código parece **mutar** el arreglo original. Corrija este código incorrecto para que la función ya **no mute el arreglo original**.
+
+`Test Cases`
+```js
+const x = [3, 3, 3, 3, 3, 3, 3]
+
+// What we want:
+change(x, 2) => [3, 2, 1, 1, 1, 2, 3]
+
+change(x, 2) => [3, 2, 1, 1, 1, 2, 3]
+
+// What we get:
+change(x, 2) => [3, 2, 1, 1, 1, 2, 3]  // Good so far...
+
+change(x, 2) => [3, 1, -1, -1, -1, 1, 3] // Array is mutated :(
+```
+**Notas**
+- Si esto es confuso, copie y pegue el código incorrecto en un entorno REPL y juegue con el código para comprender qué está haciendo la función.
