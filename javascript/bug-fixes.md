@@ -180,3 +180,6 @@ change(x, 2) => [3, 1, -1, -1, -1, 1, 3] // Array is mutated :(
 ```
 **Notas**
 - Si esto es confuso, copie y pegue el código incorrecto en un entorno REPL y juegue con el código para comprender qué está haciendo la función.
+
+## Fix error: Otro
+
