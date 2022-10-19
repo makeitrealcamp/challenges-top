@@ -181,5 +181,37 @@ change(x, 2) => [3, 1, -1, -1, -1, 1, 3] // Array is mutated :(
 **Notas**
 - Si esto es confuso, copie y pegue el código incorrecto en un entorno REPL y juegue con el código para comprender qué está haciendo la función.
 
-## Fix error: Otro
+## Fix error: Replace
+
+El siguiente código no está dando el resultado esperado, puedes decirme ¿cual es el error y como seria la solución?
+
+Debes sustentar tu respuesta.
+
+```js
+// Spot the bug 👩🏻‍💻🐛👩🏻‍👨🏼‍💻
+
+const petName = 'Leo'
+const placeholder = '{NAME}'
+const reminderTemplate = '{NAME} is due for another visit. Please call us so we can set up a new appointment. We look forward to seeing you and {NAME} soon.'
+
+const reminder = reminderTemplate.replace(placeholder, petName)
+
+// Imprime reminder para darte cuenta que sucede
+```
+
+> `String.prototype.replace` solo reemplaza la primera ocurrencia encontrada en la cadena. Si pudiera haber más de una ocurrencia, use `String.prototype.replaceAll`, que es parte de ES2021.
+
+## Fix error: String
+El siguiente código no está dando el resultado esperado, puedes decirme ¿cual es el error y como seria la solución?
+
+Debes sustentar tu respuesta.
+
+```js
+function capitalize (string) {
+  string[0].toUpperCase()
+  return string
+}
+```
+
+> Cuando llamamos a `UpperCase`, asumimos que estamos modificando la cadena que se pasó a la función. Sin embargo, dado que las cadenas son valores primitivos, eso significa que son inmutables y no se pueden modificar una vez que se crean. En lugar de intentar modificar la cadena directamente, debemos devolver una nueva cadena después de poner en mayúscula el primer carácter.
 
